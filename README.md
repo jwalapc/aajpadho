@@ -4,7 +4,7 @@ SETUP:<br>
 Clone the repo<br>
 `https://github.com/ankurm23/aajpadho.git`
 
-Install all dependancies<br>
+Install all dependancie<br>
 `npm i`
 
 Launch the react app on localhost<br>
