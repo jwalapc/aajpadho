@@ -1,18 +1,19 @@
-# VLearn
+# Aaj Padho
 
 SETUP:<br>
 Clone the repo<br>
- `git clone https://github.com/Jay4Codes/VLearn.git`
+`https://github.com/ankurm23/aajpadho.git`
 
 Install all dependancies<br>
- `npm i`
+`npm i`
 
 Launch the react app on localhost<br>
- `npm start`
+`npm start`
 
 Build -> Visualize -> Explain Algorithms
 
 Algorithms to visualize yet
+
 <ul>
   <li>recurivesort</li>
   <li>turing machine</li>
