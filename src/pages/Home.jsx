@@ -30,9 +30,10 @@ const Home = () => {
                   >
                     <div className="row">
                       <div className="col-lg-12">
-                        
                         <h1>We are,</h1>
-                         <h2><img src={aaj} alt="heading" width={"360px"}/> </h2>
+                        <h2>
+                          <img src={aaj} alt="heading" width={"360px"} />{" "}
+                        </h2>
                       </div>
                       <div className="col-lg-12">
                         <div
@@ -56,7 +57,7 @@ const Home = () => {
                           }}
                         >
                           <Link to="/visualize" className="gradient-button">
-                          Envision <i className="fa fa-arrow-right"></i>
+                            Envision <i className="fa fa-arrow-right"></i>
                           </Link>
                         </div>
                       </div>
@@ -87,11 +88,13 @@ const Home = () => {
                 data-wow-delay="0.5s"
               >
                 <h4>
-                &nbsp; Incredible <em>Functions &amp; Services</em> for you
+                  &nbsp; Incredible <em>Functions &amp; Services</em> for you
                 </h4>
                 <img src={heading} alt="heading" />
                 <p style={{ fontSize: "1.0rem", color: "#72286F" }}>
-                The website we suggest as a solution would transform the way students learn programming in an exciting and dynamic way. In our application, we recommend the qualities listed below:
+                  The website we suggest as a solution would transform the way
+                  students learn programming in an exciting and dynamic way. In
+                  our application, we recommend the qualities listed below:
                 </p>
               </div>
             </div>
@@ -109,16 +112,18 @@ const Home = () => {
               desc="The complex Data Structures and Algorithms can be animated and their working can be viewed for better understanding."
               link="/visualize"
             />
-            {<Card
-              title="AI Explains Code"
-              desc="Helping developers break through the enigma of code.  It helps you in learning programming concepts and improves your coding skills."
-              link="/explain"
-            /> }
-            <Card
+            {
+              <Card
+                title="AI Explains Code"
+                desc="Helping developers break through the enigma of code.  It helps you in learning programming concepts and improves your coding skills."
+                link="/explain"
+              />
+            }
+            {/* <Card
               title="Your Analysis"
               desc="Analyze your coding patterns and get a detailed report of your coding skills. A step closer to open source contributions."
               link="/analzye"
-            />
+            /> */}
           </div>
         </div>
       </div>
@@ -128,7 +133,7 @@ const Home = () => {
             <div className="col-lg-6 align-self-center">
               <div className="section-heading">
                 <h4>Problem Statement &amp; its Solution's Impact</h4>
-                <img src={about}  alt="about"  width={"30px"} />
+                <img src={about} alt="about" width={"30px"} />
                 <p style={{ fontSize: "1.05rem", color: "#72286F" }}>
                   Programming has become the biggest trend among Indian
                   schoolchildren. There are various pathways that allow high

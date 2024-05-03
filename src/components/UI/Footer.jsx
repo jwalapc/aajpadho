@@ -14,10 +14,10 @@ const Footer = () => {
           </div>
           <div className="col-lg-3">
             <div className="footer-widget">
-              <h4>Team</h4>
+              {/* <h4>Team</h4>
               <p>Ankur Mishra</p>
               <p>Jwala Chorasiya</p>
-              <p>Aakash Maurya</p>
+              <p>Aakash Maurya</p> */}
             </div>
           </div>
           <div className="col-lg-3">
